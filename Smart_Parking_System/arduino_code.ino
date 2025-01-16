@@ -2,9 +2,9 @@
 #include <WiFiS3.h> // For Wi-Fi and HTTP on Arduino Uno R4 WiFi
 
 // Wi-Fi and Server settings
-const char *ssid = "Three_7AD76E";
-const char *password = "2vLuswu235z3256";
-const char *serverIP = "192.168.0.183"; // Replace with Raspberry Pi's IP
+const char *ssid = "Your WiFi SSID";
+const char *password = "Password";
+const char *serverIP = "IP-Address"; // Replace with Raspberry Pi's IP
 const int serverPort = 5000;
 
 // ThingSpeak settings
